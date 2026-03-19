@@ -13,6 +13,9 @@ Bronze (raw CSV from GCS) → Silver (cleaned Parquet) → Gold (ML-ready datase
 | Silver | English-only filtering, null removal, deduplication, type normalization |
 | Gold | Game-level aggregation, feature vectorization, ML-ready output |
 
+**Silver layer result:** 113M → 80.4M rows (29% reduction) via English-only
+filtering, null removal, deduplication, and type normalization.
+
 ## Results
 
 | Model | R² | RMSE | MAE |
