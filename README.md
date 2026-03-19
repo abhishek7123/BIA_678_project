@@ -50,11 +50,3 @@ Python · PySpark · Google Cloud Dataproc · Cloud Storage · MLlib
 
 ---
 
-**requirements.txt — paste this into a new file:**
-```
-pyspark==3.5.0
-pandas==2.0.0
-numpy==1.24.0
-matplotlib==3.7.0
-scikit-learn==1.3.0
-pyarrow==12.0.0
